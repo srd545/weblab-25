@@ -1,18 +1,25 @@
+:root {
+  --main-border: 3px solid #4c75af;
+}
+
+figure {
+  border: var(--main-border);
+  padding: 10px;
+  margin: 20px 0;
+  max-width: 600px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
-    background-color:sienna;
-    background-color:rgba(0,255,0, 1.0); /* rgb 0 - 255 */
-    background-color:#999999;
-    
-    /* write a comment in css */
+    background-color:rgb(181, 41, 150);
 }
 
 header{
     width: 960px;
-    background-color: red;
+    background-color: pink;
     height: auto;
     padding: 20px;
-    border: 5px solid orange;
+    border: 5px solid white;
     margin-top: -7px;
     margin-bottom: 10px;
     margin-left: auto;
@@ -21,54 +28,23 @@ header{
 
 main{
     width: 960px;
-    background-color: blue;
+    background-color: aliceblue;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    border-left: 5px dotted green;
-    border-right: 5px dotted green;
+    border-left: 5px dotted pink;
+    border-right: 5px dotted pink;
     margin: 0px auto; /* top and bottom to 0px, and left and right to auto */
 }
 
 footer{
     width: 960px;
     height: 50px;
-    background-color: green;
-    border-left: 5px dashed blue;
-    border-right: 5px dashed blue;
+    background-color: pink;
+    border-left: 5px dashed white;
+    border-right: 5px dashed white;
     margin: 0px auto;
-}
-
-h1{
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    font-weight: 100;
-    font-style: italic;
-}
-h2{
-    font-family: cursive; 
-    text-transform: capitalize;
-}
-
-ul{
-    list-style: square;
-}
-
-ul li{
-    color: black; 
-}
-
-li{
-    text-decoration: underline;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover{
-    color: pink;
 }
 
 img{
@@ -77,18 +53,23 @@ img{
     /* use width or height when setting img sizes */
 }
 
-.imageGallery{
-    width: 200px;
-}
-
-.green{
-    color: green;
-}
-
 .greyBackground{
-    background-color: rgba(255,189,189,0.5);
+    background-color: lightcyan;
 }
 
+.pinkBackground{
+    background-color: lightpink;
+}
+
+
+.lightyellowBackground{
+    background-color: rgb(253, 255, 197);
+}
+
+
+.lightblueBackground{
+    background-color: rgb(197, 244, 255);
+}
 
 nav{
     width: 400px;
